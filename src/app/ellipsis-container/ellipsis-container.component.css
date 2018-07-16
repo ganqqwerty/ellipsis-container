@@ -1,0 +1,21 @@
+.shortening-block {
+  width:100%;
+  display:inline-flex;
+  flex-wrap:nowrap;
+}
+
+.ellipsis-block {
+  flex-grow: 0;
+  flex-shrink:1;
+  flex-basis: content;
+  text-overflow: ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.ending-block {
+  flex-grow: 1;
+  flex-shrink:0;
+  flex-basis: content;
+  white-space:nowrap;
+}
